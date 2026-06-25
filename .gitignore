@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite3
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+
+# Root node_modules (concurrently etc.)
+node_modules/
+
+# Vector store (rebuilt automatically)
+chroma_db/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# ML reports (generated outputs)
+ml/reports/
+
+# Scraped / temp datasets (keep .gitkeep)
+ml/datasets/*
+!ml/datasets/.gitkeep
+
+# The cloned empty-repo subfolder
+AI-Powered-Multi-Disease-Prediction-Health-Assistant-Platform/
